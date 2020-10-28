@@ -21,7 +21,7 @@ public class Main {
         oArray[3] = new Wall(2);
 
         for (Object obstacle:oArray) {
-            // Сначала все поочередно бегаем
+            // Сначала все поочередно бегаем.
             if (obstacle instanceof Track) {
                 for (Object player : pArray) {
                     if (player instanceof Cat) {
