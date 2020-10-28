@@ -3,11 +3,6 @@ package ru.geekbrains.q2;
 public class Main {
 
     public static void main(String[] args) {
-        Cat cat1 = new Cat("Barsic",3);
-        Human human1 = new Human("Igor",25);
-        Robot robot1 = new Robot("B11",10);
-        Track track1 = new Track(10);
-        Wall wall1 = new Wall(5);
 
         Object[] pArray = new Object[3];
         pArray[0] = new Cat("Barsic", 3);
