@@ -5,7 +5,6 @@ public class Main {
     static final int HALF = SIZE / 2;
     float[] arr = new float[SIZE];
 
-
     public static void main(String[] args) {
         Main e = new Main();
         e.method1();
