@@ -3,11 +3,6 @@ package ru.geekbrains.q2;
 public class Main {
 
     public static void main(String[] args) {
-        Cat cat1 = new Cat("Barsic",3);
-        Human human1 = new Human("Igor",25);
-        Robot robot1 = new Robot("B11",10);
-        Track track1 = new Track(10);
-        Wall wall1 = new Wall(5);
 
         Object[] pArray = new Object[3];
         pArray[0] = new Cat("Barsic", 3);
@@ -21,7 +16,7 @@ public class Main {
         oArray[3] = new Wall(2);
 
         for (Object obstacle:oArray) {
-            // Сначала все поочередно бегаем
+            // Сначала все поочередно бегаем.
             if (obstacle instanceof Track) {
                 for (Object player : pArray) {
                     if (player instanceof Cat) {
